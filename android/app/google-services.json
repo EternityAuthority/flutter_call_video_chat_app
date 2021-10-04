@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "682930194844",
+    "firebase_url": "https://waya-ng.firebaseio.com",
+    "project_id": "waya-ng",
+    "storage_bucket": "waya-ng.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682930194844:android:8af3047645325ac7",
+        "android_client_info": {
+          "package_name": "com.waya.ng"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682930194844-iq9ujdc2sihp31odq2h33ouano32tlgt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.waya.ng",
+            "certificate_hash": "55594f885534e9590fec46a42ce31d6e7df99df2"
+          }
+        },
+        {
+          "client_id": "682930194844-ood0b3tbng8kcbloj5r89ho2a5p1otar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_T38Tpc_rag-a3IzfHRUCym42p42_gbI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682930194844-ood0b3tbng8kcbloj5r89ho2a5p1otar.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "682930194844-vfgu8j1a52bijisc6lc64ojn3or9hhe9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.waya.ng"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,34 @@
+
+Have you done the chat, voice call app natively on flutter before?
+We have an existing app . The mobile is on flutter framework while the backend is developed on lareval PHP . The app has call chat video features . The call chat video was build on web rtc agora flutter . Of works well but it doesn’t connect or notify the user when the app dead and when the phone is locked . There is no push notification as flutter doesn’t allow it . We have tried to integrate with firebase for the push notification but it doesn’t work perfectly . 
+
+So the requirement is to build on our existing backend and mobile a chat , call , video features that works exactly like WhatsApp with push notifications even when the app is killed , minimized , on background and when the phone is locked . 
+
+as written on the project description... it says chat, voice cal lsimilar to whatsapp.
+I guess that says it all.
+
+it is a digital paymnet app with call, chat features but we hav issuess with the call features as the flutter plguins do not enable a call notification when the app is killed.
+so we need a native  solution just for the chat, voice call.
+
+here is the code where the oroginal agora flutter plugins were build but no notifications when the app is killed.
+
+https://drive.google.com/file/d/1sjSx6qPgMcpwqfCWGuiL-SEhM__BACtn/view?usp=drivesdk
+
+Here is the server Ip where the web rtc is deployed: 138.197.67.90
+
+here is also link to the app apk for the entire app.
+
+https://drive.google.com/file/d/1NEF6ATHA5zVtRSouPRIvk-l0Rg3oP0Tf/view?usp=drivesdk
+
+use this 2 test accounts :
+
+Login details:
+
+phone: +2348053546788
+pass: jonathan
+Name: Kadiri Jonathan
+
+-----
+phone: +2347010975693
+pass: jonathan
+Name: Jude Jonathan

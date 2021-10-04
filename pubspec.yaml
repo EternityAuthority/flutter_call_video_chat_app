@@ -1,0 +1,105 @@
+name: waya
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 1.0.5+1
+
+environment:
+  sdk: ">=2.2.2 < 3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: any
+  intl: any
+  provider: 3.0.0+1
+  flutter_swiper: ^1.1.4
+  shared_preferences: 0.5.0
+  pin_view: 1.0.1
+  firebase_auth: ^0.9.0
+  cupertino_icons: ^0.1.2
+  flutter_slidable: ^0.4.9
+  permission_handler: ^3.2.0
+  country_code_picker: 1.1.7
+  flutter_masked_text: ^0.7.0
+  flutter_webview_plugin: ^0.3.10+1
+  firebase_storage: ^2.0.1
+  fluttertoast: ^3.1.0
+  image_picker: 0.6.1+3
+  url_launcher: 5.0.3
+  flutter_image_compress: ^0.6.3
+  flutter_video_compress: ^0.3.6
+  file_picker: ^1.3.8
+  contacts_service: ^0.3.0
+  flutter_webrtc: 0.1.7
+  flutter_ringtone_player: 1.0.3
+  bottom_navy_bar: ^3.0.0
+  path_provider: 0.4.1
+  undraw: ^1.0.2
+  barcode_scan: 1.0.0
+  qr_flutter: 3.0.1
+  flutter_downloader: ^1.2.1
+  like_button: 0.1.9
+  shimmer: 1.0.1
+  flutter_local_notifications: ^0.8.4+3
+  # firebase_messaging: ^5.1.6
+  date_range_picker: 1.0.6
+  get: ^1.6.3
+  agora_rtc_engine: ^1.0.3
+  flutter_open_whatsapp: 0.1.2
+  font_awesome_flutter: 8.5.0
+
+  #share: 0.6.3+3
+  esys_flutter_share:
+    path: ./esys_flutter_share
+  firebase_messaging:
+    path: ./firebase_messaging
+  uuid: 2.0.4
+
+dev_dependencies:
+  build_runner:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: 0.7.2
+
+flutter_icons:
+  image_path: "assets/appicon/appicon.jpg"
+  android: true
+  ios: true
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/appicon/
+    - assets/images/splash.png
+
+  fonts:
+    - family: ProductSans
+      fonts:
+        - asset: assets/fonts/ProductSans-Regular.ttf
+        - asset: assets/fonts/ProductSans-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/ProductSans-Light.ttf
+          weight: 300
+        - asset: assets/fonts/ProductSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/ProductSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/ProductSans-Black.ttf
+          weight: 900
